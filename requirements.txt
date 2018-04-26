@@ -10,10 +10,12 @@ certifi==2018.4.16
 cffi==1.11.5
 chardet==3.0.4
 cryptography==2.2.2
+cycler==0.10.0
 decorator==4.3.0
 docutils==0.14
 gast==0.2.0
 grpcio==1.11.0
+h5py==2.7.1
 html5lib==0.9999999
 idna==2.6
 imagesize==1.0.0
@@ -24,8 +26,13 @@ jedi==0.12.0
 Jinja2==2.10
 jupyter-client==5.2.3
 jupyter-core==4.4.0
+Keras==2.1.6
+kiwisolver==1.0.1
 Markdown==2.6.11
 MarkupSafe==1.0
+matplotlib==2.2.2
+mkl-fft==1.0.0
+mkl-random==1.0.1
 numpy==1.14.2
 numpydoc==0.8.0
 packaging==17.1
@@ -33,6 +40,7 @@ pandas==0.22.0
 parso==0.2.0
 pexpect==4.5.0
 pickleshare==0.7.4
+Pillow==5.1.0
 prompt-toolkit==1.0.15
 protobuf==3.5.2
 ptyprocess==0.5.2
@@ -43,6 +51,7 @@ pyparsing==2.2.0
 PySocks==1.6.8
 python-dateutil==2.7.2
 pytz==2018.4
+PyYAML==3.12
 pyzmq==17.0.0
 requests==2.18.4
 scipy==1.0.1
