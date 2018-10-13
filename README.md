@@ -16,68 +16,46 @@ https://conda.io/miniconda.html
 ### Create a virtual environment
 Mac Terminal or Windows Anaconda Prompt
 ```
-$ conda create -n toolbox
+$ conda create -n beauty_classifer
 ```
 
 ### Activate it
 Mac Terminal
 ```
-$ source activate toolbox
+$ source activate beauty_classifer
 ```
 
 Windows Anaconda Prompt
 ```
-$ activate toolbox
+$ activate beauty_classifer
 ```
 
 ### Install packages
 ```
-(toolbox) $ conda install pip
-(toolbox) $ pip install -r requirements.txt
+(beauty_classifer) $ conda install pip
+(beauty_classifer) $ pip install -r requirements.txt
 ```
 
-### Define AWS credentials locally
-Complete Quick Start portion at https://github.com/boto/boto3.
-Email rferguson@laughlin.com for AWS credentials for now.
-
-### Close the virtual environment
-Mac Terminal
-```
-(toolbox)$ source deactivate
-```
-
-Windows Anaconda Prompt
-```
-(toolbox)$ deactivate
-```
-
-## Run Commands
-
-### Activate it
-Mac Terminal
-```
-$ source activate toolbox
-```
-
-Windows Anaconda Prompt
-```
-$ activate toolbox
-```
 
 ### Run it
 ```
-(toolbox)$ python run.py
+(beauty_classifer)$ jupyter notebook
 ```
+This will open the active directory in your browser. Navigate to the directory with the repo and select 'Image Processing Hands On.ipynb'. This will open the notebook.
+
+## When finished
+
+Head back to the command line and push CTRL-C. This will close the notebook. Then, close the browser tabs that were opened.
 
 ### Close the virtual environment
 Mac Terminal
 ```
-(toolbox)$ source deactivate
+(beauty_classifer)$ source deactivate
 ```
 
 Windows Anaconda Prompt
 ```
-(toolbox)$ deactivate
+(beauty_classifer)$ deactivate
 ```
 
 ## References
