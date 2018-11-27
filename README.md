@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raferguson/Beauty-Classifier/master)
 # Predicting Beauty
 
 ## The Model
@@ -7,6 +8,10 @@ Consists of a binary classifier. Model is a convolutional neural network which h
 __Takes:__ An image hosted locally
 
 __Outputs:__ A classification of Beautiful or Ugly along with probability
+
+To run, you have a couple options.
+1. Launch the Binder version. This will open the repo in your browser and allow for interaction. Downside, it may take a bit. To do this, push the Launch Binder button on the top of the ReadMe.
+2. Run locally. See setup instructions below.
 
 ## Initial Setup Commands
 
