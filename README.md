@@ -10,7 +10,8 @@ __Takes:__ An image hosted locally
 __Outputs:__ A classification of Beautiful or Ugly along with probability
 
 To run, you have a couple options.
-1. Launch the Binder version. This will open the repo in your browser and allow for interaction. Downside, it may take a bit. To do this, push the Launch Binder button on the top of the ReadMe.
+1. Launch the Binder version. This will open the repo in your browser and allow for interaction. Downside, it may take a bit (about 5 minutes). To do this, push the Launch Binder button on the top of the ReadMe.
+   * To test the model with an image, upload the image to the repo once the binder finishes loading. Then, reference the photo name and extension where indicated.
 2. Run locally. See setup instructions below.
 
 ## Initial Setup Commands
